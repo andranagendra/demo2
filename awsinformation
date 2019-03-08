@@ -1,8 +1,45 @@
 
 global services:
 
-IAM
+-ec2
+-lambda
+-elastick beanstack
+
+-autoscaling
+-loadbalancer
+ ami
+ security groups
+ snapshots
+ 
+Networking:
+
+-vpc
+ subnets
+ route
+ internetgateways
+ NAT
+-cloudfornt
+ 
+Database:
+  RDS
+security management:
+-------------------
+  IAM
+  
+storage:
+-------
 S3
+management services:
+-------------------
+cloudformation
+cloudwatch
+autoscaling
+
+workmail
+sns
+
+
+
 
 
 
