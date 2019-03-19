@@ -1,0 +1,14 @@
+step 1: download the repo path file 
+
+>> wget https://bintray.com/jfrog/artifactory-rpms/rpm -O bintray-jfrog-artifactory-rpms.repo
+
+step 2: move the repo path file  /etc/yum.repos.d/
+
+>> mv bintray-jfrog-artifactory-rpms.repo  /etc/yum.repos.d/.
+
+step 3: now we will install the jfrog using below command.
+
+>>yum install jfrog-artifactory-oss -y
+
+>> To start the 
+systemctl start artifactory.service
